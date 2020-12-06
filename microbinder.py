@@ -19,7 +19,6 @@ def load_Config():
         print("Config file successfully created!")
         return False
 
-
 def launch_Macros(hotkey_Value):
     time.sleep(0.5)
     chat_key = "t"
@@ -31,7 +30,6 @@ def launch_Macros(hotkey_Value):
 
     kd.press_and_release('enter')
 
-
 if load_Config() != False:
     print("Chat binder is start : )")
     x = dict(Config.items('HOTKEYS_BUTTONS'))
@@ -41,8 +39,3 @@ if load_Config() != False:
     kd.wait('ctrl + z')
 else:
     print("Exit, restart program now")
-
-
-
-
-
