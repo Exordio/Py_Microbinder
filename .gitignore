@@ -1,3 +1,6 @@
 venv
 config.ini
 .idea
+dist
+build
+__pycache__
