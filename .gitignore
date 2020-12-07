@@ -4,3 +4,6 @@ config.ini
 dist
 build
 __pycache__
+microbinder.spec
+minecraft-binder_chatbinder.zip
+
